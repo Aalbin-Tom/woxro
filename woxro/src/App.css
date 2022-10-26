@@ -1,0 +1,37 @@
+.post::-webkit-scrollbar {
+  display: none;
+}
+
+.post {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.image {
+  background-image: url("https://images.pexels.com/photos/6130170/pexels-photo-6130170.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-repeat: no-repeat;
+  background-size: contain;
+    /* background-color: rgba(0, 0, 0, 0.463); */
+  height: 394px;
+}
+.globe {
+  background-image: url("https://woxro.com/public/assets/png/woxroglobe.png");
+  background-repeat: no-repeat;
+}
+
+.space {
+  background-image: url("https://woxro.com/public/assets/png/woxro_slide.png");
+  background-repeat: no-repeat;
+  height: 28rem;
+}
+.statics {
+  background-image: url("https://woxro.com/public/assets/jpg/maps/map2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38rem;
+}
+/* .map {
+  background-image: url("https://woxro.com//public/assets/png/web-glob.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+ height: 38rem; 
+}*/
